@@ -1,21 +1,88 @@
-This is the front end done in React for my dev test as part of my interview with NexVel. I basically tried to teach myself as much about using WordPress in headless mode in... 4 days, including two days that I worked my job at Toftree Hotel & Golf Resort for 7 hours a day.
+es and renders the following from WordPress:
 
-It was a rough road, and it isn't perfect, but I am proud of what there is here.
+Category name (Experience, We Care, Safety)
+
+Category icon (PNG stored in WordPress Media Library)
+
+Category description
+
+Category color
+
+Subcategories (if provided)
+
+React dynamically builds:
+
+The pill selector (with icons)
+
+Hero left column (headline, subtext, bullet list)
+
+Hero right column (image, card layout, CTAs)
+
+Mobile-responsive behavior (accordion planned per requirements)
+
+WHAT I LEARNED
+
+This was my first time using WordPress as a headless CMS with WPGraphQL. I learned:
+
+How to map ACF fields into the GraphQL schema
+
+How to resolve schema errors and plugin conflicts
+
+How to rebuild a custom taxonomy and field group
+
+How to validate schema output in the Apollo GraphQL Sandbox
+
+How to fetch and render dynamic WordPress data inside React
+
+How to match a complex Figma layout from scratch
+
+I entered this with no headless WordPress experience and worked through multiple technical challenges until the project ran end-to-end.
+
+PROFESSIONAL CONTEXT
+
+I completed this assignment while working my full-time job at Toftrees Golf Resort & Conference Center, where I work in four different departments:
+
+Front Desk
+
+Housekeeping
+
+The Field (restaurant) as a server
+
+Banquets as a banquet server
+
+I am the only employee who works across all departments.
+I even gave up a shift this week so I could finish this project.
+
+This ability to wear many hats is exactly why I pushed through technologies I hadn’t used before. I’m committed to learning and always give 110%.
+
+HOW TO RUN THE PROJECT
+
+Clone the repo
+git clone https://github.com/mpartsch01/react-frontend
 
 
-# React + Vite
+cd react-frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Install dependencies
+npm install
 
-Currently, two official plugins are available:
+Start the dev server
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Local URL
+http://localhost:5173
 
-## React Compiler
+WordPress GraphQL Endpoint
+https://wordpress-321502-6040557.cloudwaysapps.com/graphql
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+WHY I WANT THIS ROLE
 
-## Expanding the ESLint configuration
+This project showed me how much I love solving complex problems, even when they start out overwhelming. I learned a tremendous amount in a short time and proved to myself that I can adapt quickly under pressure.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I’m eager to keep growing, learning, and giving everything I have to a team that values creativity, persistence, and problem-solving.
+
+THANK YOU
+
+Thank you for the opportunity to complete this assignment. I’m proud of the work and excited for the chance to contribute more.
+
+If you need clarification or would like enhancements, I’m happy to continue improving the project.
