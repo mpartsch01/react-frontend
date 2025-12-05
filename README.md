@@ -1,4 +1,24 @@
-es and renders the following from WordPress:
+ABC Transportation – React + WordPress Headless Frontend
+
+This project is a React (Vite) frontend powered by a headless WordPress backend using WPGraphQL and ACF. It recreates the Figma layout and renders dynamic service category content pulled directly from WordPress.
+
+TECH STACK
+
+React (Vite)
+
+GraphQL (WPGraphQL)
+
+WordPress (Headless)
+
+ACF for custom fields
+
+Custom taxonomy: serviceCategories
+
+Component-level CSS
+
+PROJECT SUMMARY
+
+The React frontend fetches and renders the following from WordPress:
 
 Category name (Experience, We Care, Safety)
 
