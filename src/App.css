@@ -1,0 +1,250 @@
+/* Full page black background */
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  font-family: 'LibreBaskerville', serif;
+  color: white;
+}
+
+/* TWO COLUMN LAYOUT */
+.page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  max-width: 1600px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+/* LEFT COLUMN */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.headline {
+  font-size: 70px;
+  line-height: 0.9;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.headline-italic {
+  font-family: 'EuclidCircularB', sans-serif;
+  font-style: italic;
+  color: #c7c48a;
+}
+
+.headline-subtext {
+  font-family: 'EuclidCircularB', sans-serif;
+  margin-bottom: 40px;
+  font-size: 16px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+
+/* RIGHT COLUMN */
+.right-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* ===========================
+   HERO WRAPPER (2-COLUMN LAYOUT)
+   =========================== */
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 4rem 6rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* =================================
+   TOP TAB GROUP (ServiceTabs component)
+   ================================= */
+.serviceTabs-wrapper {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tab-pill-group {
+  display: flex;
+  background: #1a1a1a;
+  padding: 6px;
+  border-radius: 50px;
+  gap: 8px;
+}
+
+.tab-button {
+  background: transparent;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 40px;
+  font-family: "EuclidCircularB", sans-serif;
+  font-size: 15px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background: #d2d1a9;
+  color: #000;
+}
+
+/* ===========================
+   LEFT SIDE
+   =========================== */
+.hero-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 530px;
+}
+
+.hero-headline {
+  font-family: "LibreBaskerville", serif;
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.hero-italic {
+  font-family: "LibreBaskerville";
+  font-style: italic;
+  color: #d2d1a9;
+}
+
+.hero-subtext {
+  font-family: "EuclidCircularB", sans-serif;
+  font-size: 15px;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+/* ===========================
+   BULLET LIST
+   =========================== */
+.bullet-list {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.bullet-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.bullet-icon {
+  font-size: 18px;
+}
+
+.bullet-text {
+  font-family: "EuclidCircularB", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+/* ===========================
+   RIGHT SIDE
+   =========================== */
+.hero-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero-card {
+  background: transparent;
+  color: white;
+  max-width: 520px;
+}
+
+.hero-card-title {
+  font-family: "LibreBaskerville";
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.hero-card-desc {
+  font-family: "EuclidCircularB", sans-serif;
+  color: #ccc;
+  font-size: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-family: "EuclidCircularB";
+}
+
+.btn-quote {
+  background: #d2d1a9;
+  color: black;
+  border: none;
+}
+
+.btn-book {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+@media (max-width: 900px) {
+  .hero-wrapper {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .serviceTabs-wrapper {
+    position: static;
+    transform: none;
+    margin-bottom: 2rem;
+  }
+
+  .hero-left, .hero-right {
+    max-width: 100%;
+  }
+
+  .hero-headline {
+    font-size: 48px;
+  }
+}
+
+.serviceTabs-wrapper {
+  position: absolute;
+  top: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999; /* <-- NEW */
+}
+

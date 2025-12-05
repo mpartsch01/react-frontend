@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'EuclidCircularB';
+    src: url('./EuclidCircularB/Euclid-Circular-B-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EuclidCircularB';
+    src: url('./EuclidCircularB/Euclid-Circular-B-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EuclidCircularB';
+    src: url('./EuclidCircularB/Euclid-Circular-B-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Libre Baskerville */
+@font-face {
+    font-family: 'LibreBaskerville';
+    src: url('./LibreBaskerville/LibreBaskerville-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LibreBaskerville';
+    src: url('./LibreBaskerville/LibreBaskerville-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LibreBaskerville';
+    src: url('./LibreBaskerville/LibreBaskerville-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
