@@ -1,3 +1,8 @@
+This is the front end done in React for my dev test as part of my interview with NexVel. I basically tried to teach myself as much about using WordPress in headless mode in... 4 days, including two days that I worked my job at Toftree Hotel & Golf Resort for 7 hours a day.
+
+It was a rough road, and it isn't perfect, but I am proud of what there is here.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
